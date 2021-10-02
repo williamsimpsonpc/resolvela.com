@@ -486,6 +486,16 @@ progress {
   display: none !important;
 }
 
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;	
+}
+
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -11272,4 +11282,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+.bg-darj {
+
+	
+	
+	
 }
