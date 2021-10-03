@@ -6950,6 +6950,21 @@ textarea.form-control-lg {
   width: 75% !important;
 }
 
+.w-80 {
+  width: 80% !important;
+}
+
+.w-85 {
+  width: 85% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+.w-95 {
+  width: 95% !important;
+}
+
 .w-100 {
   width: 100% !important;
 }
@@ -6964,6 +6979,22 @@ textarea.form-control-lg {
 
 .vw-100 {
   width: 100vw !important;
+}
+
+.vw-95 {
+  width: 95vw !important;
+}
+
+.vw-90 {
+  width: 90vw !important;
+}
+
+.vw-85 {
+  width: 85vw !important;
+}
+
+.vw-80 {
+  width: 80vw !important;
 }
 
 .min-vw-100 {
@@ -6982,6 +7013,22 @@ textarea.form-control-lg {
   height: 75% !important;
 }
 
+.h-80 {
+  height: 80% !important;
+}
+
+.h-85 {
+  height: 85% !important;
+}
+
+.h-90 {
+  height: 90% !important;
+}
+
+.h-95 {
+  height: 95% !important;
+}
+
 .h-100 {
   height: 100% !important;
 }
@@ -6996,6 +7043,22 @@ textarea.form-control-lg {
 
 .vh-100 {
   height: 100vh !important;
+}
+
+.vh-95 {
+  height: 95vh !important;
+}
+
+.vh-90 {
+  height: 90vh !important;
+}
+
+.vh-85 {
+  height: 85vh !important;
+}
+
+.vh-80 {
+  height: 80vh !important;
 }
 
 .min-vh-100 {
