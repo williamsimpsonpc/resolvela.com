@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-		
+
+				
 		
 		
 		<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.css" />
 		
 		
+<!--Responsive to section-->
+<style>
+.responsive{
+  max-width:100%;
+  max-height:100%;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+parent{
+  position: relative;
+}
+</style>
+	
+<!--Responsive image size-->	
 		
-		
-		
+<style>
+.responsivesize {
+  width: auto;
+  height: auto;
+}
+</style>
 		
     <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -24,9 +49,10 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+	
     <body class="bg-black">
+		
         <!-- Navigation-->
-
     <nav class="navbar navbar-expand-xxl navbar-dark bg-dark">
             <div class="container px-4 px-lg-5">
 				<a class="navbar-brand" href="indexproject.html" style="font-family: 'Archivo Black'">RESOLVE LOS ANGELES</a>
@@ -42,7 +68,7 @@
                                 <li><hr class="dropdown-divider" /></li>
                                 <li><a class="dropdown-item" href="#!">Popular Items</a></li>
                                 <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
-                            </ul>
+                          </ul>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -57,19 +83,25 @@
         </nav>
         <!-- Gif section-->
 		
+	
+
+
+
+<div class="vh-90 bg-black vw-100">
+	
+	<div class="parrent"> 
+      <img class="responsive center responsivesize" 
+ src="resolvela3.gif" width="100">
+
+</div>	
 		
-		
-<section class="vw-75 vh-100 vw-100 bg-black">
-	<div class="px-8 px-lg-5 my-5">	
-		<center>						  
-	  <img src="resolvela3.gif" class= "h-50 w-50">
-	    </center>
-							   
-  </div>						   
-  </div>
-</section>
-		
-  
+   
+	</div>
+			
+					   
+
+
+
 
 
         <!-- Section-->
@@ -111,7 +143,7 @@
                       <div class="card h-100">
 							
                             <!-- Product image-->
-                        <img class="card-img-top" src="blackhoodieresolve.png" alt="hoodie 1 + back"/>
+                        <img class="card-img-top" src="blackback.png" alt="hoodie 1 + back"/>
 
 						  <div class="text-center"></div>
                             <div>
@@ -130,7 +162,7 @@
 										data-item-price="75"
 										data-item-url="/"
 										data-item-name="HOODIE 1 + BACK"
-										data-item-image="blackhoodieresolve.png"
+										data-item-image="blackback.png"
 										add  to cart ($75)
 								</button>
 							<div class="text-center">ADD TOO CART</div>
@@ -142,27 +174,27 @@
 
 						
 		                          <!-- Product image-->
-                        <img class="card-img-top" src="blackhoodieresolve.png" alt="hoodie 2"/>
+                        <img class="card-img-top" src="greyfront.png" alt="hoodie 2"/>
 
 						  <div class="text-center"></div>
                             <div>
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">HOODIE 2</h5>
+                                    <h5 class="fw-bolder">GREY SWEATSHIRT</h5>
                                     <!-- Product price-->
                                     $50.00
                               </div>
                           </div>
 							
                             <!-- Product actions-->
-                            <div class="text-center""card-footer p-4 pt-0 border-top-0 bg-transparent">
-									<button class="buy-button snipcart-add-item"
-										data-item-id="3"
-										data-item-price="50"
-										data-item-url="/"
-										data-item-name="HOODIE 2"
-										data-item-image="blackhoodieresolve.png"
-										add  to cart ($50)
+                           <div class="text-center""card-footer p-4 pt-0 border-top-0 bg-transparent">
+								<button class="buy-button snipcart-add-item"
+									data-item-id="3"
+									data-item-price="50"
+									data-item-url="/"
+									data-item-name="HOODIE 2"
+									data-item-image="greyfront.png"
+									add  to cart ($50)
 								</button>
 							<div class="text-center">ADD TOO CART</div>
 						</div>
@@ -202,7 +234,7 @@
 					  <div class="card h-100">
 						  
                             <!-- Product image-->
-                        <img class="card-img-top" src="blackhoodieresolve.png" alt="hoodie 5"/>
+                        <img class="card-img-top" src="tanback.jpg" alt="hoodie 5"/>
 
 						  <div class="text-center"></div>
                             <div>
@@ -221,7 +253,7 @@
 										data-item-price="50"
 										data-item-url="/"
 										data-item-name="HOODIE 3"
-										data-item-image="blackhoodieresolve.png"
+										data-item-image="tanback.jpg"
 										add  to cart ($75)
 								</button>
 							<div class="text-center">ADD TOO CART</div>
@@ -240,7 +272,7 @@
                             <div>
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">HOODIE3 + BACK</h5>
+                                    <h5 class="fw-bolder">HOODIE 3 + BACK</h5>
                                     <!-- Product price-->
                                     $75.00
                               </div>
@@ -262,12 +294,12 @@
                     </div>
                     <div class="col mb-5">
 					  <div class="card h-100">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
             </div>
-        </section>
+    </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container"><p class="m-0 text-center text-white">RESOLVE LOS ANGELES &copy; resolvela.com 2021</p>
