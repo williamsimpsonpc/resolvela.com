@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
+<html lang="en"><head>
 
 				
 		
@@ -52,6 +51,21 @@ parent{
   color: white;
 </style>
 
+<!--hoverable buttons 2-->
+	
+	<style>
+.button6 {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.button6:hover {
+  background-color: #555555;
+  color: white;
+</style>
+	
+	
 <style>
 input[type=text] {
   border: 2px solid white;
@@ -61,6 +75,26 @@ input[type=text] {
 		
 </style>
 
+<!--Input Background Color-->	
+
+	<style>
+	input[type="text"], textarea {
+
+  background-color : #212529; 
+
+}
+	</style>
+	
+	
+<!--input add to cart background color-->
+	<style>
+	input, textarea {
+  background-color: #ffffff;
+}
+	</style>
+	
+	
+	
 	
     <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -108,12 +142,12 @@ input[type=text] {
 							
                             <i class="bi-cart-fill me-1"></i>
                             Cart
-                            <span class="badge bg-black text-white ms-1 rounded-pill">
+                            <span class="text-white">
 								
 								
-							<fieldset disabled="disabled">
-							<input type="text" id="number" value="0"/>
-							</fieldset>
+							
+							<input type="text" class="text-light text-center" id="number" value="0" readonly />
+							
 							</span>
                         </button>
                     </form>
@@ -176,7 +210,7 @@ input[type=text] {
 										add  to cart ($50)
 								
 								<form>
-								  <input type="button" onclick="incrementValue()" value="ADD TO CART" />
+								  <input class="button button6" type="button" onclick="incrementValue()" value="ADD TO CART" />
 								</button>
 
 		
@@ -210,7 +244,7 @@ input[type=text] {
 										add  to cart ($75)
 											
 									<form>
-								  <input type="button" onclick="incrementValue()" value="ADD TO CART" />
+								  <input class="button button6" type="button" onclick="incrementValue()" value="ADD TO CART" />
 								
 								</button>
 							
@@ -245,7 +279,7 @@ input[type=text] {
 									add  to cart ($50)
 										
 								<form>
-								  <input type="button" onclick="incrementValue()" value="ADD TO CART" />
+								  <input class="button button6" type="button" onclick="incrementValue()" value="ADD TO CART" />
 								</button>
 						  
 	</div>
@@ -278,7 +312,7 @@ input[type=text] {
 										add  to cart ($75)
 											
 									<form>
-								  <input type="button" onclick="incrementValue()" value="ADD TO CART" />
+								  <input class="button button6" type="button" onclick="incrementValue()" value="ADD TO CART" />
 								</button>
 						  
 	</div>
@@ -311,7 +345,7 @@ input[type=text] {
 										add  to cart ($75)
 											
 								<form>
-								 <input type="button" onclick="incrementValue()" value="ADD TO CART" />
+								 <input class="button button6" type="button" onclick="incrementValue()" value="ADD TO CART" />
 								</button>
 						  
 						</div>
@@ -346,7 +380,7 @@ input[type=text] {
 										add  to cart ($75)
 											
 									<form>
-								 <input type="button" onclick="incrementValue()" value="ADD TO CART" />
+								 <input class="button button6" type="button" onclick="incrementValue()" value="ADD TO CART" />
 								
 								</button>
 
