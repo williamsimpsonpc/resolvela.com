@@ -43,28 +43,31 @@ parent{
 	
 <style>
 .button5 {
-  background-color: white;
-  color: black;
+  background-color: #555555;
+  color: white;
   border: 2px solid #555555;
+  transition-duration:0.4s;
+  border-radius: 8px;
 }
 
 .button5:hover {
-  background-color: #555555;
-  color: white;
+  background-color: white;
+  color: #555555;
 </style>
 
 <!--hoverable buttons 2-->
 	
 	<style>
 .button6 {
-  background-color: white;
-  color: black;
+  background-color: #555555;
+  color: white;
   border: none;
+  transition-duration:0.35s;
 }
 
 .button6:hover {
-  background-color: #555555;
-  color: white;
+  background-color: white;
+  color: #555555;
 </style>
 	
 	
@@ -95,36 +98,88 @@ input[type=text] {
 }
 	</style>
 	
+	
 <!--------------Preloader--------------->
+	
 	<style>
-	  #preloader{
-			background: #000 url("resolvespin.gif") no-repeat center center;
-			background-size: 20%;
-			height: 100vh;
-			width: 100%;
-			position: fixed;
-			z-index: 100;
-	  }
+	  .preloader {
+  align-items: center;
+  background: rgb(0, 0, 0);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity 0s linear;
+  width: 100%;
+  z-index: 9999;
+  opacity: 1;
+  transform: opacity 1s linear;
+}
 	</style>
 
 	<style>
-	  .box{
-		height: 150px;
-		width: 400px;
-		background: #000;
-		font-size: 30px;
-		font-style:normal;
-		color: #FFF;
-		text-align: center;
-		padding 0 20px;
-		margin: 0px;
-		display: flex;
-		justify-content: center;
-		align-items: center; 
-	  }
+		.preloader.loaded{
+			opacity: 0;
+			pointer-events: none;
+		}
+	
+	
+	
+	</style>
+	
+	<style>
+		
+		
+	html {
+  scroll-behavior: smooth;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: black;
+ } 
+ 
+ #sectioncollections {
+  margin-top: 0%;
+  padding-bottom: 0%;
+ } 
+
+	</style>
+	
+	<style>
+	.parent {
+  position: relative;
+  width: 100%;
+}
+
+
+.one {
+  position: relative;
+  height: 100px;
+  width:33%;
+  margin-left:auto;
+  margin-right:0px;
+  top: 0;
+  background-color: white;
+  -webkit-clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%); 
+}
 	</style>
 
+<style>
+	
 
+	
+	
+	</style>
+	
+	
+	
+	
+	
+	
     <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
@@ -145,12 +200,23 @@ input[type=text] {
 	
     <body class="bg-black">
 		
-	<!---Preloader image--->
-	<div id="preloader" class="box"></div>	
-        <!---Navigation--->
+		
+		
+		
+		
+	<!-------------------Preloader image------------------->
+		
+	
+	<div class="preloader">
+	<img src="resolvespinner.gif" width="250" alt="spinner">
+	</div>
+
+		
+	
+    <!---------------------Navigation---------------------->
     <nav class="navbar navbar-expand-xxl navbar-dark bg-dark">
             <div class="container px-4 px-lg-5">
-				<a class="navbar-brand" href="indexproject.html" style="font-family: 'Archivo Black'">RESOLVE LOS ANGELES</a>
+				<a class="navbar-brand" href="indexproject.html" style="font-family:'bebas-neue'">RESOLVE LOS ANGELES</a>
 
 				<!--DROPDOWN BUTTON--->
 				
@@ -159,7 +225,7 @@ input[type=text] {
 				
                 <div class="collapse navbar-collapse positioned " id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link text-light" href="indexproject.html#/cart">Cart</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#sectioncollections">Collections</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-light" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -192,28 +258,33 @@ input[type=text] {
         </nav>
         <!-- Gif section-->
 		
-<div class="vh-90 bg-black vw-100">
+<div class="vh-80 bg-black vw-100">
 	
 	<div class="parrent"> 
 		
       <img class="responsive center responsivesize positioned" 
  src="resolvela3.gif" width="100">
-
 </div>	
-		
-   
 	</div>
-			
-					   
 
-
-
-
-
+		<!--Featured Collections-->
+		
+		<div class="parent">
+		<div class="one"></div>
+		
+		
+		</div>
+		
+		
+		
         <!-- Section-->
-		<div style="background-color:#ffffff;">
+		<div style="background-color:white">
 		<!-- Offwhite/tan color #fcf5e5-->
-        <section class="py-5">
+	
+			
+		                  <!--Scrolls user to section-->	
+        <section class="py-5" id="sectioncollections">
+
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-3 justify-content-center">
                     <div class="col mb-5">
@@ -442,19 +513,31 @@ input[type=text] {
 		<script async src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"></script>
 		<div hidden id="snipcart" data-api-key="ZGQ3ZjFmMmQtMTA4Yy00ZWE5LTgxMjgtZGUzZDFjZDA5YTM1NjM3NjgyOTk4NzU4MjU0NjI4"></div>
 
+		
 		<script>
-		
-		  var loader= document.getElementById("preloader");
-		  
-		  window.addEventListener("load", function(){
-			 loader.style.display = "none";
-			  
-		  })
-			
-				
-		</script>
-		
 
+const preloader = document.querySelector('.preloader');
+
+const fadeEffect = setInterval(() => {
+  // if we don't set opacity 1 in CSS, then
+  // it will be equaled to "" -- that's why
+  // we check it, and if so, set opacity to 1
+  if (!preloader.style.opacity) {
+    preloader.style.opacity = 1;
+  }
+  if (preloader.style.opacity > 0) {
+    preloader.style.opacity -= 1;
+  } else {
+    clearInterval(fadeEffect);
+	preloader.style.display="none"
+  }
+}, 1500);
+
+			
+window.addEventListener('load');
+
+
+</script>
 
     </body>
 </html>
