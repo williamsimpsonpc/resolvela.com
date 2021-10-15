@@ -6,12 +6,24 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 
-function incrementValue()
-{
-    var value = parseInt(document.getElementById('number').value, 10);
-    value = isNaN(value) ? 0 : value;
-    value++;
-    document.getElementById('number').value = value;
-}
 
+/*Preloader*/
+const preloader = document.querySelector('.preloader');
 
+const fadeEffect = setInterval(() => {
+  // if we don't set opacity 1 in CSS, then
+  // it will be equaled to "" -- that's why
+  // we check it, and if so, set opacity to 1
+  if (!preloader.style.opacity) {
+    preloader.style.opacity = 1;
+  }
+  if (preloader.style.opacity > 0) {
+    preloader.style.opacity -= 1;
+  } else {
+    clearInterval(fadeEffect);
+    preloader.style.display="none"
+  }
+}, 1500);
+
+            
+window.addEventListener('load');
