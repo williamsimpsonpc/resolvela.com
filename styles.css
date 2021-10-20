@@ -89,8 +89,6 @@
   transform: translate(-50%, -50%);
 }
 
-.stayfixed{
-  position: fixed;
 }
 .centernew{
   display:block;
@@ -141,11 +139,7 @@
   color: #555555;
 }
 	
-input[type=text] {
-  border: 2px solid white;
-  border-radius: 4px;
-  width: 20%;
-}		
+	
 
 /*Hover for Nav items*/
 
@@ -163,22 +157,7 @@ input[type=text] {
   color: white;
 }
 
-/*Input Background Color*/
 
-	input[type="text"], textarea {
-  background-color : #212529;
-}
-
-	
-	
-/*input add to cart background color*/
-
-	input, textarea {
-  background-color: #ffffff;
-}
-
-	
-	
 /*preloader*/
 
   .preloader {

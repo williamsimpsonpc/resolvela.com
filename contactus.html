@@ -5,8 +5,10 @@
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="" />
   <meta name="author" content="" />
+
   <title>RESOLVE LOS ANGELES</title>
     
 <!-------------Favicon-------------->
@@ -18,9 +20,8 @@
 <!---Core theme CSS (includes Bootstrap)-->
   <link href="styles.css" rel="stylesheet" />
 
-<!----Core theme JS----->
-  <link href="scripts.js" rel="stylesheet" /> 
-
+<!---Core theme CSS (includes Bootstrap)-->
+<link href="contact-us.css" rel="stylesheet">
 
   <!---------Apple Status Bar---------->
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -31,6 +32,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   
+<!--Form CSS--->
+ 
+ 
+  
+  
+
+
+
+
 </head>
   
   <body style="background-color:#141414">
@@ -64,23 +74,38 @@
 
         <div class="collapse navbar-collapse positioned" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ms-lg-4">
-            
             <li class="nav-item">
               <a class="back" href="#sectioncollections">New Collection</a></li>
               <a class="back" href="./ourmission.html">Our Mission</a></li>
               <a class="back" href="./contactus.html">Contact Us</a></li>
             </li>
-  
           </ul>
         </div>
-
-     </div>
-   </nav>
+      </div>
+    </nav>
 
 <!-----------Gif/Blank Photo Section------------>
-    <div class="vh-80 bg-black vw-100 parent">
-      <img class="responsive center responsivesize positioned" src="                    " width="40px">
-    </div>                                                          <!--resolvela3.gif-->
+    <div class="vh-100 bg-black vw-100 parent">
+    
+      <div class="wrapper">
+        <form class="form">
+          <div class="pageTitle title">Contact Us</div>
+          <input type="text" class="name formEntry" placeholder="Name" />
+          <input type="text" class="email formEntry" placeholder="Email"/>
+          <textarea class="message formEntry" placeholder="Message"></textarea>
+          <input type="checkbox" class="termsConditions" value="Term">
+          <label style="color: #FCFFDB" for="terms"> I Accept the 
+            <span style="color: #0d6efd">Terms of Use</span> & 
+            <span style="color: #0d6efd">Privacy Policy</span>.
+          </label>
+          <br>
+          <button class="submit formEntry" onclick="thanks()">Submit</button>
+        </form>
+
+      </div>
+  
+  </div>
+
 
 
 
@@ -133,6 +158,9 @@ const fadeEffect = setInterval(() => {
             
 window.addEventListener('load');
   </script>
+
+
+<script src="app.js"></script>
 
   </body>
 </html>
