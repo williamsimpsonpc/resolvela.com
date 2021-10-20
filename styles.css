@@ -80,6 +80,8 @@
   max-height:100%;
 }
 
+
+
 .center{
   position: absolute;
   top: 50%;
@@ -87,6 +89,9 @@
   transform: translate(-50%, -50%);
 }
 
+.stayfixed{
+  position: fixed;
+}
 .centernew{
   display:block;
   margin-left:auto;
@@ -147,7 +152,7 @@ input[type=text] {
 .back {
   color: #808080;
   font-family:'Bebas Neue', cursive;
-  font-size:23px;
+  font-size:18px;
   transition-duration: .25s;
   display: block;
   padding: 0.5rem;
@@ -4530,6 +4535,7 @@ textarea.form-control-lg {
     padding: 0;
     overflow-y: visible;
   }
+
 }
 @media (min-width: 1400px) {
   .navbar-expand-xxl {
