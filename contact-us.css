@@ -20,7 +20,7 @@
 .form {
   background: #141414;
   box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
-  border-radius: 10px;
+  border-radius: 8px;
   max-width: 480px;
   margin-top:5%;
   margin-left: auto;
@@ -30,7 +30,7 @@
   left: 0;
   right: 0;
   position: absolute;
-  border:5px solid #ffffff;
+  border: 3px solid #ffffff;
 /*   z-index: 1; */
   animation: bounce 5s infinite;
 }
@@ -49,14 +49,13 @@
 }
 
 .pageTitle{
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 1.5em;
   color: #ffffff;
 }
 
 .name {
   background-color: #ffffff;
-  color: white;
+  color: black;
 }
 .name:hover {
   border-bottom: 5px solid #808080;
