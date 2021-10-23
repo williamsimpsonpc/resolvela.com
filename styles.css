@@ -138,8 +138,6 @@
   background-color: white;
   color: #555555;
 }
-	
-	
 
 /*Hover for Nav items*/
 
@@ -152,14 +150,12 @@
   padding: 0.5rem;
   text-decoration: none;
 }
-                                          
+                                      
 .back:hover {
   color: white;
 }
 
-
 /*preloader*/
-
   .preloader {
     align-items: center;
     background: rgb(0, 0, 0);
@@ -181,8 +177,6 @@
 	  pointer-events: none;
 		}
 	
-	
-		
 	html {
   scroll-behavior: smooth;
  }
@@ -259,16 +253,21 @@ back:hover .red {
 
 .footersize{
   font-size: 1.2em;
+  margin-left: 1em;
 }
 
 
 
 /*Twitter Icon*/
 
-.blue-color {
-color:blue;
+.blue {
+color:#1DA1F2;
 }
 
+.twittersize {
+  font-size:  1.4em !important;
+  padding: 0.5rem;
+}
 
 	
 body {
