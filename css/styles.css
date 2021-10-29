@@ -142,6 +142,22 @@ input[type=text] {
   width: 20%;
 }		
 
+/*Hover for Nav items*/
+
+.back {
+  
+  
+  
+  transition-duration: 0.15s;
+}
+                                                                    /*   grey color#808080   shopify black color#141414*/
+.back:hover {
+  
+  color: white;
+  
+  
+}
+
 
 /*Input Background Color*/
 
@@ -208,7 +224,7 @@ input[type=text] {
 .one {
   position: relative;
   height: 100px;
-  width:33%;
+  width:300px;
   margin-left:auto;
   margin-right:0px;
   top: 0;
@@ -236,6 +252,14 @@ input[type=text] {
 .roundedcorners {
   border-radius:50%;
 }
+
+
+
+
+
+
+
+
 
 
 	
