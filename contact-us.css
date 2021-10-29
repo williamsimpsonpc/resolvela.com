@@ -22,7 +22,6 @@
   box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
   border-radius: 8px;
   max-width: 480px;
-  margin-top:5%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 5px;
@@ -30,6 +29,7 @@
   left: 0;
   right: 0;
   position: absolute;
+  top: 20%;
   border: 3px solid #ffffff;
 /*   z-index: 1; */
   animation: bounce 5s infinite;
@@ -102,6 +102,13 @@
 .submit {
   width: 200px;
   color: #808080;
+  background-color: #ffffff;
+  font-size: 20px;
+}
+
+.submit2 {
+  width: 200px;
+  color: #00FF00;
   background-color: #ffffff;
   font-size: 20px;
 }
