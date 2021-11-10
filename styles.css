@@ -285,6 +285,47 @@ color:#1DA1F2;
 	margin: auto;
 }
 
+/*Smart Phone Screem*/
+@media all and (min-width:321px) and (max-width: 480px) {
+
+  .cover {
+  object-fit: cover;
+  width: 100vw;
+  height: 55vh;
+  }
+
+  .textsize {
+    font-size:  1.5em;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center !important;
+    padding-top: 2.5rem;
+    border-bottom: 5px solid black;
+    margin-right: 30%;
+    margin-left: 30%;
+
+  }
+}
+
+/*Any screen bigger than Smart Phone*/
+@media all and (min-width:481px) {
+
+  .cover {
+  object-fit: cover;
+  width: 100vw;
+  height: 80vh;
+}
+
+.textsize {
+    font-size:  2.3em;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center !important;
+    padding-top: 2.5rem;
+    border-bottom: 5px solid black;
+    margin-right: 35%;
+    margin-left: 35%;
+  }
+
+}
 
 
 
@@ -5315,11 +5356,10 @@ textarea.form-control-lg {
   height: 85vh !important;
 }
 
+
 .vh-80 {
   height: 80vh !important;
 }
-
-
 
 
 .vh-75 {
@@ -5867,7 +5907,7 @@ textarea.form-control-lg {
 }
 
 .py-4 {
-  padding-top: 1.5rem !important;
+  padding-top: .2rem !important;
   padding-bottom: 1.5rem !important;
 }
 
