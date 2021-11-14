@@ -23,6 +23,9 @@
 <!---Core theme CSS (includes Bootstrap)-->
   <link href="styles.css" rel="stylesheet"/>
 
+<!---Core theme CSS-->
+<link href="styles2.css" rel="stylesheet"/>
+
 <!----Core theme JS----->
 	<link href="scripts.js" rel="stylesheet"/> 
 
@@ -43,7 +46,7 @@
 
 <!---------------------------------------BODY------------------------------------------>
 	
-	<body style="background-color:#141414">
+	<body style="background-color:#212121">
 
 <!------------------------------------PRELOADER--------------------------------------->
   	<div class="preloader">
@@ -51,7 +54,7 @@
   	</div>
 
 <!---------------------------------NAVIGATION BAR------------------------------------->	
-  	<nav class="navbar navbar-expand-xxl py-5 navbar-dark navbar-fixed-top masthead">
+  	<nav class="navbar navbar-expand-xxl py-5 navbar-dark masthead">
     	<div class="container px-4 px-lg-5">
 	  		<a class="navbar-brand center" href="indexproject.html" style="font-family: 'Bebas Neue', cursive;">
 	    		RESOLVE LOS ANGELES																																																<!-- Grey Color #4a4a4a -->
@@ -72,7 +75,7 @@
         	<span class="navbar-toggler-icon"></span>
      		</button>
 
-      	<div class="collapse navbar-collapse positioned" id="navbarSupportedContent">
+      	<div class="collapse navbar-collapse" id="navbarSupportedContent">
         	<ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
           	
           	<li class="nav-item">
@@ -87,11 +90,57 @@
    	 </div>
  	 </nav>
 
-<!-----------Front Page Image-------->
+
+<!--------------------Carousel--------------------->
+
+<div class="pcf-carousel items-5 cover">
+
+	<!-- Hidden radio control inputs -->
+	<input type="radio" id="carousel-play" 	  name="pcf-carousel-5" checked>
+	<input type="radio" id="carousel-start-1" name="pcf-carousel-5">
+	<input type="radio" id="carousel-start-2" name="pcf-carousel-5">
+	<input type="radio" id="carousel-start-3" name="pcf-carousel-5">
+	<input type="radio" id="carousel-start-4" name="pcf-carousel-5">
+	<input type="radio" id="carousel-start-5" name="pcf-carousel-5">
+
+	<!-- Pause/play button -->
+	<label for="carousel-play" class="btn-play" title="Play"></label>
+
+	<!-- Slide jump dots -->
+	<div class="pcf-carousel-dots">
+		<label for="carousel-start-1"></label>
+		<label for="carousel-start-2"></label>
+		<label for="carousel-start-3"></label>
+		<label for="carousel-start-4"></label>
+		<label for="carousel-start-5"></label>
+	</div>
+	<div class="pcf-carousel-anime-dots">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+
+	<!-- Slides, repeat 1st and last slide -->
+	<div class="moving-strip">
+		<div class="pcf-carousel-item" style="background-image:url('frontimage.jpg');"></div>
+		<div class="pcf-carousel-item" style="background-image:url('frontimage2.jpg');"></div>
+		<div class="pcf-carousel-item" style="background-image:url('frontimage3.jpg');"></div>
+		<div class="pcf-carousel-item" style="background-image:url('frontimage4.jpg');"></div>
+		<div class="pcf-carousel-item" style="background-image:url('frontimage.jpg');"></div>
+		<div class="pcf-carousel-item" style="background-image:url('frontimage.jpg');"></div>
+	</div>
+
+</div>
+
+
+
+<!-----------Front Page Image
   	
     	<img class=" bg-black responsive cover" src="frontimage3.jpg" />
   																													<!--resolvela3.gif-->
-	
+	-------->
 
 <!------------------------------------COLLECTION------------------------------------>
   	<div style="background-color:white">
@@ -99,7 +148,7 @@
 
 
   	<p class="textsize"> 
-  		<em>First Collection Out Now </em>
+  		<em>First Collection Out Now</em>
   	</p>
 
 
@@ -325,6 +374,9 @@ const fadeEffect = setInterval(() => {
             
 window.addEventListener('load');
 	</script>
+
+
+
 
 	</body>
 </html>

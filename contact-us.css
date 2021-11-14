@@ -16,11 +16,13 @@
   z-index: 5;
 } */
 
-/* form animation starts */
+/* form animation starts COMPUTER */
+@media all and (min-width:481px) {
+
 .form {
   background: #141414;
   box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
-  border-radius: 8px;
+  border-radius: 7px;
   max-width: 480px;
   margin-left: auto;
   margin-right: auto;
@@ -30,10 +32,35 @@
   right: 0;
   position: absolute;
   top: 20%;
-  border: 3px solid #ffffff;
+  border: 3px solid #989898;
 /*   z-index: 1; */
   animation: bounce 5s infinite;
 }
+
+}
+
+/* form animation starts SMARTPHONE */
+@media all and (max-width: 480px) {
+
+.form {
+  background: #141414;
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  border-radius: 7px;
+  max-width: 85%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 20%;
+  border: 3px solid #989898;
+/*   z-index: 1; */
+  animation: bounce 5s infinite;
+}
+
+}
+
+
+
 ::-webkit-input-placeholder {
   font-size: 1.3em;
 }
@@ -43,9 +70,6 @@
   font-family: sans-serif;
   margin: 10px auto 5px;
   width: 300px;
-}
-.termsConditions{
-  margin: 0 auto 5px 80px;
 }
 
 .pageTitle{
