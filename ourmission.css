@@ -1,0 +1,32 @@
+/*Smart Phone Screem*/
+@media all and (max-width: 480px) {
+
+  .textsize2 {
+    font-size: 20px;
+  }
+
+  .center3{
+  position: absolute;
+  top: 50%;
+  left: 25%; 
+  transform: translate(-15%, -50%);
+}
+
+}
+
+
+
+  /*Any screen bigger than Smart Phone*/
+@media all and (min-width:481px) {
+
+  .textsize2 {
+    font-size: 25px;
+  }
+
+  .center3{
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+}

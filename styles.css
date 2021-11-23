@@ -89,9 +89,12 @@
   transform: translate(-50%, -50%);
 }
 
-
-
-
+.center2{
+  position: absolute;
+  top: 60%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
 
 .centernew{
   position: absolute;
@@ -99,15 +102,15 @@
   transform: translate(-50%, -50%);
 }
 
-/*Responsive image size*/	
-		
+/*Responsive image size*/ 
+    
 .responsivesize {
   width: auto;
   height: auto;
 }
-	
+  
 /*Hoverable button*/
-	
+  
 
 .button5 {
   background-color: #555555;
@@ -123,7 +126,7 @@
 }
 
 /*hoverable buttons 2*/
-	
+  
 .button6 {
   background-color: #555555;
   color: white;
@@ -154,12 +157,12 @@
     transform: opacity 1s linear;
 }
 
-	.preloader.loaded{
-	  opacity: 0;
-	  pointer-events: none;
-		}
-	
-	html {
+  .preloader.loaded{
+    opacity: 0;
+    pointer-events: none;
+    }
+  
+  html {
   scroll-behavior: smooth;
  }
  
@@ -191,17 +194,17 @@
   clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
-		img {
-		z-index: 1;
-		}
+    img {
+    z-index: 1;
+    }
 
-	
-	
-		nav {
-		z-index: 10;		
-	
-		}
-	
+  
+  
+    nav {
+    z-index: 10;    
+  
+    }
+  
     .masthead{
       width: 100%;
       background: rgba(20, 20, 20, .93);
@@ -212,7 +215,7 @@
 
 
 #midcontainer {
-	text-align: center;
+  text-align: center;
 }
 
 .roundedcorners {
@@ -240,11 +243,9 @@ back:hover .red {
   
 }
 
-.footersize{
-  font-size: 1.2em;
-  margin-left: 1em;
+.instasize {
+  padding-left: .4em !important;
 }
-
 
 
 /*Twitter Icon*/
@@ -255,7 +256,7 @@ color:#1DA1F2;
 
 .twittersize {
   font-size:  1.4em !important;
-  padding: 0.5rem;
+  padding: .1em;
 }
 
 .button1 {
@@ -268,7 +269,7 @@ color:#1DA1F2;
 }
 
 .centerit {
-	margin: auto;
+  margin: auto;
 }
 
 /*Smart Phone Screem*/
@@ -289,6 +290,11 @@ color:#1DA1F2;
     margin-right: 15%;
     margin-left: 15%;
   }
+
+.footersize{
+  font-size: 1em;
+  margin-left: 1em;
+}
 
   /*Hover for Nav items Smart Phone*/
 
@@ -314,7 +320,7 @@ color:#1DA1F2;
   .cover {
   object-fit: cover;
   width: 100vw !important;
-  height: 80vh !important;
+  height: 69vh !important;
 }
 
 .textsize {
@@ -323,9 +329,14 @@ color:#1DA1F2;
     text-align: center !important;
     padding-top: 2.5rem;
     border-bottom: 5px solid black;
-    margin-right: 35%;
-    margin-left: 35%;
+    margin-right: 30%;
+    margin-left: 30%;
   }
+
+.footersize{
+  font-size: 1.2em;
+  margin-left: 1em;
+}
 
 /*Hover for Nav items Computer*/
 
@@ -1514,7 +1525,7 @@ progress {
   height: 200px;
   display: flex;
   align-items: center;
-  justify-content: center;	
+  justify-content: center;  
 }
 
 
@@ -2578,7 +2589,9 @@ progress {
 
   .row-cols-xl-2 > * {
     flex: 0 0 auto;
-    width: 50%;
+    width: 38%;
+    margin-right:  20px;
+    margin-left: 20px;
   }
 
   .row-cols-xl-3 > * {
@@ -5062,6 +5075,11 @@ textarea.form-control-lg {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+
+
+
+
+
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,
@@ -8096,7 +8114,7 @@ textarea.form-control-lg {
 
   
  
-	
-	
-	
+  
+  
+  
 }
