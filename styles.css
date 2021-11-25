@@ -212,6 +212,12 @@
       -webkit-backdrop-filter: blur(15px);
     }
 
+    .masthead2{
+      width: 100%;
+      background: rgba(20, 20, 20);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+    }
 
 
 #midcontainer {
@@ -276,6 +282,7 @@ color:#1DA1F2;
 @media all and (max-width: 480px) {
 
   .cover {
+    position: absolute;
   object-fit: cover;
   width: 100vw !important;
   height: 55vh !important;
@@ -318,6 +325,7 @@ color:#1DA1F2;
 @media all and (min-width:481px) {
 
   .cover {
+    position: absolute;
   object-fit: cover;
   width: 100vw !important;
   height: 69vh !important;
@@ -5076,7 +5084,15 @@ textarea.form-control-lg {
   padding-bottom: 0.5rem;
 }
 
-
+.navbar2 {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
 
 
 
