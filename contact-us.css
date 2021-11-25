@@ -30,7 +30,7 @@
   right: 0;
   position: absolute;
   top: 30%;
-  border: 3px solid #212121;
+  border: 3px solid #141414;
 /*   z-index: 1; */
   animation: bounce 5s infinite;
 }
@@ -50,7 +50,7 @@
   right: 0;
   position: absolute;
   top: 30%;
-  border: 3px solid #212121;
+  border: 3px solid #141414;
 /*   z-index: 1; */
   animation: bounce 5s infinite;
 }
@@ -78,7 +78,7 @@
 .name {
   background-color: white;
   color: #212121;
-  border: 1px solid #212121 !important;
+  border: 1px solid #141414 !important;
   border-radius: 6px !important;
 }
 .name:hover {
@@ -92,7 +92,7 @@
 .email {
   background-color: white;
   height: 2em;
-  border: 1px solid #212121 !important;
+  border: 1px solid #141414 !important;
   border-radius: 6px !important;
 }
 
@@ -108,7 +108,7 @@
   background-color: white;
   overflow: hidden;
   height: 10rem;
-  border: 1px solid #212121 !important;
+  border: 1px solid #141414 !important;
   border-radius: 6px !important;
 }
 
@@ -135,7 +135,7 @@
   color: #808080;
   background-color: white;
   font-size: 20px;
-  border: 1px solid #212121 !important;
+  border: 1px solid #141414 !important;
   border-radius: 6px !important;
 }
 
