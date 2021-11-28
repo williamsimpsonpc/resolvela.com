@@ -1,32 +1,87 @@
 /*Smart Phone Screem*/
 @media all and (max-width: 480px) {
 
-  .textsize2 {
-    font-size: 20px;
+.missionstatement {
+  margin-top:  20%;
+  font-family:'IBM Plex Serif', serif;
+  text-align: center;
+  border:  none;
+  border-radius: 20px;
+  padding: 30px;
+  color:white;
+  display:inline-block;
+  background-color: black;
+  font-size: 20px;
   }
 
-  .center3{
-  position: absolute;
-  top: 50%;
-  left: 25%; 
-  transform: translate(-15%, -50%);
+  .whoarewe {
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .centermission{
+    margin-top: ;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    max-width: 80%;
 }
 
+  .weare {
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 17px;
+    margin-top: 20px !important;
+  }
 }
-
 
 
   /*Any screen bigger than Smart Phone*/
 @media all and (min-width:481px) {
 
-  .textsize2 {
-    font-size: 25px;
+.missionstatement {
+    margin-top: 15%;
+    font-family:'IBM Plex Serif', serif;
+    text-align: center;
+    border:  none;
+    border-radius: 20px;
+    padding: 55px;
+    color:white;
+    display:inline-block;
+    background-color: black;
+    font-size: 27px;
   }
 
-  .center3{
-  position: absolute;
-  top: 50%;
-  left: 50%; 
-  transform: translate(-50%, -50%);
+.whoarewe {
+  font-family: 'Outfit', sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 50px;
 }
+
+.centermission{
+  margin-top:  ;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  max-width: 40%;
+}
+
+.weare {
+  font-family: 'Outfit', sans-serif;
+  color: black;
+  text-align: left;
+  font-size: 25px;
+  margin-top: 22px !important;
+  }
+}
+
+.underline {
+  border-bottom: 3px solid black;
+  display: inline;
 }
