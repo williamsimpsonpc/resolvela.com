@@ -3,22 +3,28 @@
 
 .missionstatement {
   margin-top:  20%;
-  font-family:'IBM Plex Serif', serif;
+  margin-bottom: 0em;
+  font-family: 'Outfit', sans-serif !important;
   text-align: center;
   border:  none;
-  border-radius: 20px;
-  padding: 30px;
+  border-radius: 15px;
+  padding: 25px;
   color:white;
   display:inline-block;
   background-color: black;
   font-size: 20px;
   }
 
+  .quote {
+    font-size: 28px !important;
+    font-family: 'Patua One', cursive;
+  }
+
   .whoarewe {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', sans-serif !important;
     color: black;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .centermission{
@@ -45,43 +51,49 @@
 
 .missionstatement {
     margin-top: 15%;
-    font-family:'IBM Plex Serif', serif;
+    margin-bottom: 2em;
+    font-family: 'Outfit', sans-serif;
     text-align: center;
     border:  none;
     border-radius: 20px;
-    padding: 55px;
+    padding: 65px;
     color:white;
     display:inline-block;
     background-color: black;
-    font-size: 27px;
+    font-size: 32px;
   }
 
-.whoarewe {
+  .quote {
+    font-size: 35px !important;
+    font-family: 'Patua One', cursive;
+  }
+
+  .whoarewe {
   font-family: 'Outfit', sans-serif;
   color: black;
   text-align: center;
   font-size: 50px;
 }
 
-.centermission{
+  .centermission{
   margin-top:  ;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
-  max-width: 40%;
-}
+  max-width: 50%;
+  }
 
-.weare {
+  .weare {
   font-family: 'Outfit', sans-serif;
   color: black;
   text-align: left;
   font-size: 25px;
   margin-top: 22px !important;
   }
-}
+  }
 
-.underline {
+  .underline {
   border-bottom: 3px solid black;
   display: inline;
-}
+  }
