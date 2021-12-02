@@ -1,34 +1,49 @@
 /*Smart Phone Screem*/
 @media all and (max-width: 480px) {
 
+/*
 .missionstatement {
   margin-top:  20%;
   margin-bottom: 0em;
   font-family: 'Outfit', sans-serif !important;
   text-align: center;
-  border:  none;
+  border: none;
   border-radius: 15px;
   padding: 25px;
-  color:white;
+  color: white;
   display:inline-block;
   background-color: black;
   font-size: 20px;
   }
+*/
 
+ #inner {
+  width: 100%;
+  margin-top: 0em !important;
+  margin-bottom: 0em !important;
+  font-family: 'Outfit', sans-serif !important;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  padding:  25px;
+  color: white;
+  display: inline-block !important;
+  background-color: black;
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+}
+ 
   .quote {
-    font-size: 28px !important;
+    font-size: 22px !important;
     font-family: 'Patua One', cursive;
   }
 
-  .whoarewe {
-    font-family: 'Outfit', sans-serif !important;
-    color: black;
-    text-align: center;
-    font-size: 30px;
-  }
 
-  .centermission{
-    margin-top: ;
+  .centerall{
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -36,12 +51,24 @@
     max-width: 80%;
 }
 
-  .weare {
+  .bodytext {
     font-family: 'Outfit', sans-serif;
     color: black;
     text-align: left;
-    font-size: 17px;
+    font-size: 19px;
     margin-top: 20px !important;
+  }
+
+  h1 {
+    font-family: 'Outfit', sans-serif !important;
+    color: black !important;
+    text-align: center !important;
+    font-size: 27px !important;
+  }
+
+
+  .space {
+    margin-top: 50px;
   }
 }
 
@@ -49,6 +76,7 @@
   /*Any screen bigger than Smart Phone*/
 @media all and (min-width:481px) {
 
+/*
 .missionstatement {
     margin-top: 15%;
     margin-bottom: 2em;
@@ -62,21 +90,41 @@
     background-color: black;
     font-size: 32px;
   }
+  */
+
+  #inner {
+  width: 100%;
+  margin-top: 0em !important;
+  margin-bottom: 0em !important;
+  font-family: 'Outfit', sans-serif !important;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  font-size: 32px;
+  padding:  65px;
+  color: white;
+  background-color: black;
+  display: inline-block !important;
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+}
 
   .quote {
     font-size: 35px !important;
     font-family: 'Patua One', cursive;
   }
 
-  .whoarewe {
-  font-family: 'Outfit', sans-serif;
-  color: black;
-  text-align: center;
-  font-size: 50px;
+  h1 {
+  font-family: 'Outfit', sans-serif !important;
+  color: black !important;
+  text-align: center !important;
+  font-size: 50px !important;
 }
 
-  .centermission{
-  margin-top:  ;
+  .centerall{
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -84,16 +132,34 @@
   max-width: 50%;
   }
 
-  .weare {
+  .bodytext {
   font-family: 'Outfit', sans-serif;
   color: black;
   text-align: left;
   font-size: 25px;
   margin-top: 22px !important;
   }
+
+  .space {
+    margin-top: 90px;
   }
 
-  .underline {
-  border-bottom: 3px solid black;
-  display: inline;
   }
+
+
+
+
+.underline {
+border-bottom: 3px solid black;
+display: inline;
+}
+
+
+
+
+
+
+
+#container {
+  perspective: 25px;
+}

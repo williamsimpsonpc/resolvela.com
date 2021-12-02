@@ -96,7 +96,37 @@
 
 <!-----------Gif/Blank Photo Section------------>
     <div class="vh-200 bg-white vw-100 parent" style="position: relative !important;">
-      <div class="centermission">
+
+      <div class="centerall">
+
+<p>
+  <br>
+  <br>
+</p>
+
+
+<div style="display: flex !important; justify-content: center !important; align-items: center !important; margin: 0 !important;">
+
+<div id="container">
+  <div id="inner">
+    <em class="quote">"&nbsp;</em><em>Our mission is to protest current affairs in regards to gentrification, climate change, and social injustice in Los Angeles, using streetwear to promote these issues</em><em class="quote">"</em>
+    </div>
+  </div>
+
+</div>
+
+  <p>
+    <br>
+    <br>
+  </p>
+
+
+
+
+
+
+
+      <!---
         <p class="missionstatement">
           
       <em class="quote">"</em><em>Our mission is to protest current affairs in regards to gentrification, climate change, and social injustice in Los Angeles, using streetwear to promote these issues</em><em class="quote">"</em>
@@ -106,27 +136,42 @@
           <br>
           <br>
         </p>
-
-        <p class="whoarewe underline">
+      ---->
+<!----------------Who Are We------------>
+      <div>
+        <h1 class="underline">
       Who Are We? &nbsp;
-        </p>
+        </h1>
 
-        <p class="weare">
+        <p class="bodytext">
       Resolve Los Angeles is a non-profit online E-commerce clothing brand with a goal to help communities through donating profits to foundations, giving out food/water and other means of charity. Our business utilizes “seasons” for clothing releases. Each season's beginning and ending are specified by a date.
         </p>
+      </div>
 
-        <p>
-          <br>
-          <br>
-        </p>
-
-        <p class="whoarewe underline">
+<!--------------Our Goals------------->
+      <div class="space">
+        <h1 class="underline">
       Our Goals &nbsp;
-        </p>
+        </h1>
 
-        <p class="weare">
+        <p class="bodytext">
       Our goals are to blah something blah something blah something blah something blah something blah something blah something blah something blah something blah something blah something blah something blah something blah something blah something blah something blah something blah something blah something blah.
         </p>
+      </div>
+
+<!-------What We've Done So Far-------->
+      <div class="space">
+        <h1 class="underline">
+      What We've Done So Far &nbsp;
+        </h1>
+
+        <p class="bodytext">
+      At this stage in our business' life we have blah blah blah blah blah blah blah blah blah blah blah. We plan to do blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+        </p>
+      </div>
+
+
+
 
       </div>
     </div>                                                       
@@ -172,6 +217,91 @@ const fadeEffect = setInterval(() => {
             
 window.addEventListener('load');
   </script>
+
+
+
+
+
+<script>
+
+(function() {
+  // Init
+  var container = document.getElementById("container"),
+    inner = document.getElementById("inner");
+
+  // Mouse
+  var mouse = {
+    _x: 0,
+    _y: 0,
+    x: 0,
+    y: 0,
+    updatePosition: function(event) {
+      var e = event || window.event;
+      this.x = e.clientX - this._x;
+      this.y = (e.clientY - this._y) * -1;
+    },
+    setOrigin: function(e) {
+      this._x = e.offsetLeft + Math.floor(e.offsetWidth / 2);
+      this._y = e.offsetTop + Math.floor(e.offsetHeight / 2);
+    },
+    show: function() {
+      return "(" + this.x + ", " + this.y + ")";
+    }
+  };
+
+  // Track the mouse position relative to the center of the container.
+  mouse.setOrigin(container);
+
+  //-----------------------------------------
+
+  var counter = 0;
+  var updateRate = 10;
+  var isTimeToUpdate = function() {
+    return counter++ % updateRate === 0;
+  };
+
+  //-----------------------------------------
+
+  var onMouseEnterHandler = function(event) {
+    update(event);
+  };
+
+  var onMouseLeaveHandler = function() {
+    inner.style = "";
+  };
+
+  var onMouseMoveHandler = function(event) {
+    if (isTimeToUpdate()) {
+      update(event);
+    }
+  };
+
+  //-----------------------------------------
+
+  var update = function(event) {
+    mouse.updatePosition(event);
+    updateTransformStyle(
+      (mouse.y / inner.offsetHeight / 2).toFixed(2),
+      (mouse.x / inner.offsetWidth / 2).toFixed(2)
+    );
+  };
+
+  var updateTransformStyle = function(x, y) {
+    var style = "rotateX(" + x + "deg) rotateY(" + y + "deg)";
+    inner.style.transform = style;
+    inner.style.webkitTransform = style;
+    inner.style.mozTransform = style;
+    inner.style.msTransform = style;
+    inner.style.oTransform = style;
+  };
+
+  //-----------------------------------------
+
+  container.onmouseenter = onMouseEnterHandler;
+  container.onmouseleave = onMouseLeaveHandler;
+  container.onmousemove = onMouseMoveHandler;
+})();
+</script>
 
   </body>
 </html>
