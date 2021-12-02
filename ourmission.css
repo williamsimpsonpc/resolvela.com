@@ -29,7 +29,7 @@
   padding:  25px;
   color: white;
   display: inline-block !important;
-  background-color: black;
+  background-color: #141414;
   box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
   transition: transform 0.5s;
   -webkit-transition: transform 0.5s;
@@ -103,7 +103,7 @@
   font-size: 32px;
   padding:  65px;
   color: white;
-  background-color: black;
+  background-color: #141414;
   display: inline-block !important;
   box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
   transition: transform 0.5s;
