@@ -947,26 +947,7 @@ color:#1DA1F2;
 }
 
 
-@keyframes pcf-carousel-5 {  
-  0% { transform: translateX(0); }
-  12% { transform: translateX(0); } 
-  
-    18% { transform: translateX(-16.667%); }
-  28% { transform: translateX(-16.667%); }
-  
-  34% { transform: translateX(-33.34%); }
-  48% { transform: translateX(-33.34%); }
-  
-    54% { transform: translateX(-50%); }
-  68% { transform: translateX(-50%); }
-  
-  74% { transform: translateX(-66.666%); }
-  88% { transform: translateX(-66.666%); }
-  
-  94% { transform: translateX(-83.333%); }
-  100% { transform: translateX(-83.333%); }
 
-}
 
 
 .pcf-carousel.items-5 .pcf-carousel-anime-dots div:nth-child(1) {
