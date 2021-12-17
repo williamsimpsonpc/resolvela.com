@@ -319,6 +319,10 @@ color:#1DA1F2;
   color: white;
 }
 
+.phoneseparation{
+  
+}
+
 }
 
 /*Any screen bigger than Smart Phone*/
@@ -344,6 +348,9 @@ color:#1DA1F2;
 .footersize{
   font-size: 1.2em;
   margin-left: 1em;
+}
+
+.phoneseparation{
 }
 
 /*Hover for Nav items Computer*/
