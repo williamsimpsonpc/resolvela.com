@@ -319,10 +319,14 @@ color:#1DA1F2;
   color: white;
 }
 
-.phoneseparation{
-  
+.phonesep{
+  margin-bottom: 1.5em;
 }
 
+.descsize{
+  font-size: 1em;
+  font-family: 'Noto Sans', sans-serif;
+}
 }
 
 /*Any screen bigger than Smart Phone*/
@@ -350,7 +354,12 @@ color:#1DA1F2;
   margin-left: 1em;
 }
 
-.phoneseparation{
+.phonesep{
+  margin-bottom: 0em;
+}
+
+.descsize{
+  font-family: 'Noto Sans', sans-serif;
 }
 
 /*Hover for Nav items Computer*/
