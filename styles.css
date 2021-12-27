@@ -219,6 +219,20 @@
       -webkit-backdrop-filter: blur(15px);
     }
 
+    .outofstock{
+      border: none;
+      color: white;
+      background-color: red;
+      border-radius: 7px;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      margin:  4px 2px;
+      cursor: pointer;
+    }
+
 
 #midcontainer {
   text-align: center;
@@ -5991,7 +6005,7 @@ textarea.form-control-lg {
   height: 190vh !important;
 }
 .vh-180 {
-  height: 180vh !important;
+  height: ecsp-Product !important;
 }
 .vh-170 {
   height: 170vh !important;
