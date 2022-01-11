@@ -29,7 +29,8 @@
   padding:  25px;
   color: white;
   display: inline-block !important;
-  background-color: #141414;
+  background: rgb(20,20,20);
+  background: linear-gradient(145deg, rgba(20,20,20,1) 30%, rgba(255,255,255,1) 100%);
   box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
   transition: transform 0.5s;
   -webkit-transition: transform 0.5s;
@@ -51,13 +52,6 @@
     max-width: 80%;
 }
 
-  .bodytext {
-    font-family: 'Outfit', sans-serif;
-    color: black;
-    text-align: left;
-    font-size: 19px;
-    margin-top: 20px !important;
-  }
 
   h1 {
     font-family: 'Outfit', sans-serif !important;
@@ -75,27 +69,22 @@
     height: 170vh !important;
   }
 
+
+.underline {
+display: inline !important;
+border-bottom: 3px solid #141414;
 }
 
+.centerdisc{
+  text-align: center !important;
+}
+
+}
+
+  
 
   /*Any screen bigger than Smart Phone*/
 @media all and (min-width:481px) {
-
-/*
-.missionstatement {
-    margin-top: 15%;
-    margin-bottom: 2em;
-    font-family: 'Outfit', sans-serif;
-    text-align: center;
-    border:  none;
-    border-radius: 20px;
-    padding: 65px;
-    color:white;
-    display:inline-block;
-    background-color: black;
-    font-size: 32px;
-  }
-  */
 
   #inner {
   width: 100%;
@@ -108,7 +97,8 @@
   font-size: 32px;
   padding:  65px;
   color: white;
-  background-color: #141414;
+  background: rgb(20,20,20);
+  background: linear-gradient(145deg, rgba(20,20,20,1) 30%, rgba(255,255,255,1) 100%);
   display: inline-block !important;
   box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
   transition: transform 0.5s;
@@ -152,20 +142,14 @@
   .viewsize {
     height: 150vh;
   }
-  }
-
-
-
 
 .underline {
-border-bottom: 3px solid black;
-display: inline;
+display: inline !important;
+border-bottom: 3px solid #141414;
 }
 
 
-
-
-
+}
 
 
 #container {
