@@ -27,7 +27,11 @@
 
 
   .space {
-    margin-top: 50px;
+    margin-top: 35px;
+  }
+
+  .doublespace {
+    margin-top: 60px !important;
   }
 
   .viewsize {
@@ -41,6 +45,11 @@
 display: inline !important;
 border-bottom: 2px solid #141414;
 }
+
+.underline4{
+display: inline !important;
+}
+
 
 .names{
   font-size: 20px !important;
@@ -61,6 +70,15 @@ border-bottom: 3px solid #141414;
 
 .centerdisc{
   text-align: center !important;
+}
+
+.boxed{
+  border: 2px solid #141414;
+  border-radius: 8px !important;
+}
+
+.introduction{
+  margin: 20px !important;
 }
 
 }
@@ -94,7 +112,11 @@ border-bottom: 3px solid #141414;
   }
 
   .space {
-    margin-top: 90px;
+    margin-top: 75px;
+  }
+
+  .doublespace {
+    margin-top: 110px !important;
   }
 
   .viewsize {
@@ -107,6 +129,10 @@ border-bottom: 3px solid #141414;
 }
 
 .underline3{
+}
+
+.underline4{
+display: inline !important;
 }
 
 .names{
@@ -125,9 +151,24 @@ border-bottom: 3px solid #141414;
 display: inline !important;
 border-bottom: 3px solid #141414;
 }
+
+.boxed{
+  border: 3px solid #141414;
+  border-radius: 10px !important;
+}
+
+.introduction{
+  margin: 30px !important;
+}
+
 }
 
 
 #container {
   perspective: 25px;
+}
+
+.introback {
+  background: rgb(0,0,0);
+  background: linear-gradient(317deg, rgba(0,0,0,1) 2%, rgba(255,255,255,1) 7%, rgba(255,255,255,1) 93%, rgba(255,255,255,1) 93%, rgba(0,0,0,1) 98%);
 }
