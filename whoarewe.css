@@ -81,6 +81,9 @@ border-bottom: 3px solid #141414;
   margin: 20px !important;
 }
 
+.underspace{
+  margin-bottom: 3em;
+}
 }
 
   
@@ -161,6 +164,9 @@ border-bottom: 3px solid #141414;
   margin: 30px !important;
 }
 
+.underspace{
+  margin-bottom: 7em;
+}
 }
 
 
