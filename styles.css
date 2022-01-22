@@ -231,6 +231,9 @@
       cursor: pointer;
     }
 
+
+
+
 .dropbtn {
   background-color: transparent !important;
   color: white;
@@ -367,7 +370,7 @@ color:#1DA1F2;
   /*Hover for Nav items Smart Phone*/
 
 .back {
-  color: #989898;
+  color:  #989898;
   font-family:'Bebas Neue', cursive;
   font-size:1.1em;
   transition-duration: .25s;
