@@ -292,7 +292,7 @@
   border-radius:50%;
 }
 
-back:hover .red {
+.back:hover .red {
     color: white;
 }
 
@@ -370,13 +370,15 @@ color:#1DA1F2;
   /*Hover for Nav items Smart Phone*/
 
 .back {
-  color:  #989898;
+  color: #989898;
   font-family:'Bebas Neue', cursive;
   font-size:1.1em;
   transition-duration: .25s;
-  display: block;
   padding: 0.5rem;
   text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;}
 }
                                       
 .back:hover {
@@ -431,13 +433,15 @@ color:#1DA1F2;
 /*Hover for Nav items Computer*/
 
 .back {
-  color:  #989898;
+  color: #989898;
   font-family:'Bebas Neue', cursive;
   font-size:1.3em;
   transition-duration: .25s;
-  display: block;
   padding: 0.5rem;
   text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
 }
                                       
 .back:hover {
