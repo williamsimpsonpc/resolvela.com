@@ -343,7 +343,10 @@ color:#1DA1F2;
   margin: auto;
 }
 
-/*Smart Phone Screem*/
+
+
+
+/*Smart Phone Screem-------------------------------------------------------------------------------------*/
 @media all and (max-width: 480px) {
 
   .cover {
@@ -427,10 +430,9 @@ color:#1DA1F2;
   box-shadow: 0 12px 50px 0 rgba(255,255,255, 0.7);
 }
 
-
 }
 
-/*Any screen bigger than Smart Phone*/
+/*Any screen bigger than Smart Phone-------------------------------------------------------------------------------------------*/
 @media all and (min-width:481px) {
 
   .cover {
@@ -515,6 +517,7 @@ color:#1DA1F2;
 }
 
 }
+
 
 /* BEGINNING OF CAROUSEL SECTION*/
 
